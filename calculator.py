@@ -1,5 +1,7 @@
 import sys
 
+inputFile = sys.argv[1]
+
 inputLines = []
 outputList = []
 
@@ -10,7 +12,7 @@ definedVariables = {}
 #     inputLines.append(line.rstrip())
 
 # comment on submission
-with open("sample.in") as fh: 
+with open(inputFile) as fh: 
    for line in fh.readlines():
        inputLines.append(line.rstrip() )
 
