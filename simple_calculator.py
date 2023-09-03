@@ -1,13 +1,13 @@
 import sys
 
-inputFile = sys.argv[1]
-
 inputLines = []
 outputList = []
 
 definedVariables = {}
 
-# uncommnet on submssion
+inputFile = sys.argv[1]
+
+# uncomment on submssion
 # for line in sys.stdin:
 #     inputLines.append(line.rstrip())
 
